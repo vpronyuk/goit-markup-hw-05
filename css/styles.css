@@ -139,6 +139,7 @@ img {
 .header-list-item:hover,
 .header-list-item:focus {
   color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .header-adress-list {
@@ -169,11 +170,13 @@ img {
 .header-adress-list-item:hover,
 .header-adress-list-item:focus {
   color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .header-adress-list-item:hover .header-address-icon,
 .header-adress-list-item:focus .header-address-icon {
   color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 /* --------Section Hero-------- */
@@ -233,6 +236,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--interactive-btn-color);
+  transition-duration: 250ms;
 }
 
 /* --------Section Feature-------- */
@@ -401,11 +405,13 @@ img {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
   fill: var(--primary-white-color);
+  transition-duration: 250ms;
 }
 
 .team-soc-icon {
@@ -445,11 +451,13 @@ img {
 .clients-list-link:hover,
 .clients-list-link:focus {
   border-color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .clients-list-link:hover .clients-icon,
 .clients-list-link:focus .clients-icon {
   fill: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .backdrop {
@@ -483,7 +491,8 @@ img {
 
 .modal-btn-icon {
   background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 /* --------Footer-------- */
@@ -543,6 +552,7 @@ img {
 .footer-map:hover,
 .footer-map:focus {
   color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 .footer-content {
@@ -587,6 +597,7 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
+  transition-duration: 250ms;
 }
 
 /* --------Portfolio page-------- */
@@ -619,6 +630,8 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  transition-duration: 250ms;
 }
 
 .portfolio-cards {
@@ -641,6 +654,8 @@ img {
 .cards-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  transition-duration: 250ms;
 }
 
 .cards-title {
